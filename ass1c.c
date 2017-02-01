@@ -21,3 +21,5 @@ int main( int argc, char *argv[] ){
     exit(-1);
   }
 }
+
+# to run - ./a.out /bin/ls ls
