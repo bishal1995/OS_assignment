@@ -7,7 +7,7 @@ int main( int argc, char *argv[] ){
   int i;
   pid = fork();
   if( pid == -1 ){
-    printf("\nProcess creation falied");
+    printf("\nProcess creation falied \n");// print statement for c
     exit(-1);    
   }
   else if( pid>0 ){
